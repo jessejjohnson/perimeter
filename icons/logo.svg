@@ -1,0 +1,38 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Robot head silhouette -->
+  <g fill="#667eea">
+    <!-- Head -->
+    <rect x="44" y="40" width="40" height="36" rx="4"/>
+    
+    <!-- Antennae -->
+    <rect x="52" y="32" width="4" height="8" rx="2"/>
+    <circle cx="54" cy="28" r="3"/>
+    <rect x="72" y="32" width="4" height="8" rx="2"/>
+    <circle cx="74" cy="28" r="3"/>
+    
+    <!-- Eyes -->
+    <circle cx="56" cy="54" r="5" fill="#fff"/>
+    <circle cx="72" cy="54" r="5" fill="#fff"/>
+    
+    <!-- Mouth -->
+    <rect x="52" y="66" width="24" height="3" rx="1.5" fill="#fff"/>
+  </g>
+  
+  <!-- Radar/scanner rings -->
+  <g fill="none" stroke="#764ba2" stroke-width="3" opacity="0.6">
+    <circle cx="64" cy="58" r="48" stroke-dasharray="8 8"/>
+    <circle cx="64" cy="58" r="38" stroke-dasharray="6 6"/>
+  </g>
+  
+  <!-- Crosshair/target indicator -->
+  <g stroke="#FF6B6B" stroke-width="3" fill="none">
+    <circle cx="64" cy="58" r="28"/>
+    <line x1="64" y1="30" x2="64" y2="38"/>
+    <line x1="64" y1="78" x2="64" y2="86"/>
+    <line x1="36" y1="58" x2="44" y2="58"/>
+    <line x1="84" y1="58" x2="92" y2="58"/>
+  </g>
+  
+  <!-- Center dot -->
+  <circle cx="64" cy="58" r="2" fill="#FF6B6B"/>
+</svg>

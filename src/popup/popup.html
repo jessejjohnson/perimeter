@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Perimeter: Anti-Bot Detector</h1>
+    <div class="url" id="currentUrl">Loading...</div>
+  </div>
+  
+  <div class="tabs">
+    <div class="tab active" data-tab="current">Current Page</div>
+    <div class="tab" data-tab="history">History</div>
+  </div>
+  
+  <div class="content">
+    <div class="tab-content active" id="current">
+      <div class="service-list" id="serviceList"></div>
+    </div>
+    
+    <div class="tab-content" id="history">
+      <div class="stats" id="stats"></div>
+      <div id="historyList"></div>
+      <div class="history-controls">
+        <button class="btn" id="clearHistory">Clear History</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

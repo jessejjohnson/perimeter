@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.crx
+*.pem
+
+# Node modules (if using build tools)
+node_modules/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Chrome extension specific
+.web-extension-id
